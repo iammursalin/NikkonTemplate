@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.bg-light {
+	background: #000!important;
+}
+.nav-item {
+	font-size: 1rem;
+	padding: 10px 15px;
+}
+.nav-item a {
+	color: #fff!important;
+	opacity: 0.9;
+}
+.nav-item a:hover {
+	color: #fff!important;
+	opacity: 2;
+}
+.content {
+	position: relative;
+}
+.content .left {
+	margin-top: 100px;
+	padding: 30px;
+}
+.content .left h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+}
+.content .left p {
+	margin-top: 25px;
+	padding: 20px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	border-left: 3px solid #000;
+}
+.content .right {
+	margin-top: 85px;
+	padding: 30px;
+}
+.content .right img {
+	width: 400px;
+	height: 350px;
+	position: absolute;
+	left: 100px;
+}
+.content .right h4 {
+	position: relative;
+	top: 370px;
+	left: 70px;
+	font-size: 1.3rem;
+}
+.content .right h4 span {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+.sideicon {
+	display: block;
+}
+.sideicon ul {
+	position: fixed;
+	left: 5px;
+	bottom: 30px;
+}
+.sideicon ul li {
+	margin: 5px 0;
+	padding: 0 5px;
+	list-style: none;
+	border: 2px solid #000;
+}
+.sideicon ul li a {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 1px;
+	color: #000;
+}
